@@ -67,4 +67,46 @@ h1, h2, h3, h4, h5 {
 
 *{
 	border:1px solid grey;
+	max-width:100%;
+}
+nav {
+	width:50%;
+
+	display:inline-block;
+}
+#navSect {
+	width:100%;
+	border:3px solid red;
+}
+#navSect a{
+	margin: 2% 5% 2% 5%;
+	width:12%;
+}
+
+.logo {
+	
+}
+.circleImg{
+	display:inline-block;
+	width:50%;
+}
+header {
+	width:100%;
+}
+header div{
+	width:50%;
+	display:inline-block;
+}
+h1{
+	text-align: center;
+	font-size: 300%;
+	display:inline-block;
+}
+header p{
+	border:2px solid black;
+	padding: 7px 20px;
+}
+
+footer{
+	margin:0 auto;
 }
