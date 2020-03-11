@@ -69,15 +69,15 @@ h1, h2, h3, h4, h5 {
 	border:1px solid grey;
 	max-width:100%;
 }
-nav {
-	width:50%;
-
-	display:inline-block;
-}
 #navSect {
 	width:100%;
 	border:3px solid red;
 }
+nav {
+	width:50%;
+	display:inline-block;
+}
+
 #navSect a{
 	margin: 2% 5% 2% 5%;
 	width:12%;
@@ -104,9 +104,18 @@ h1{
 }
 header p{
 	border:2px solid black;
-	padding: 7px 20px;
-}
-
-footer{
+	padding: 7px 5%;
 	margin:0 auto;
+}
+#topDiv {
+	width:100%;
+	display:inline-block;
+}
+#topDiv div{
+	width:50%;
+	display:inline-block;
+}
+footer{
+	width:100%;
+	text-align:center;
 }
