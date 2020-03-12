@@ -69,18 +69,31 @@ h1, h2, h3, h4, h5 {
 	max-width:100%;
 }
 #navSect {
-	margin-top: 3%;
+	top:5%;
 	width:100%;
+	position:fixed;
+	z-index:3;
+}
+
+.content {
+	
+	position:relative;
+	z-index:1;
 }
 nav {
 	width:75%;
 	display:inline-block;
 }
 #navSect a{
-	margin: 2% 5% 2% 5%;
+	margin: 0 5% 2% 5%;
 	width:14%;
 	text-decoration:none;
 }
+/*.statict-img{
+	position:absolute;
+	visibility: 0.2;
+	z-index:2;
+}*/
 .logo-pic {
 	width:16%;
 	display:inline-block;
@@ -98,7 +111,7 @@ nav {
 }
 header {
 	width:100%;
-	margin: 5% 0;
+	margin-top:15%;
 }
 header div{
 	width:49%;
